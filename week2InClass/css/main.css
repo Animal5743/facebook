@@ -1,0 +1,56 @@
+.relative,
+.absolute,
+.fixed{
+	border: 2px black double;
+}
+
+
+
+/*position relative takes up the natural space, while being moved*/
+div .posRel {
+	position: relative;
+	/*tese move the posRel element around*/
+	/*top: 30px;*/
+	/*left: 40px;*/
+}
+
+.posAbs{
+	position: absolute;
+}
+
+.fixed{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.marBlock p{
+	width: 150px;
+	margin: 0 auto;
+}
+
+.textRight{
+	text-align: right;
+}
+.textCenter{
+	text-align: center;
+}
+.textLeft{
+	text-align: left;
+}
+
+.somthing{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.cssImg{
+	height: 600px;
+	background-image: url(https://s3.paultan.org/image/2016/06/New-BMW-4-Series-Malaysia-official-6-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+
+	
